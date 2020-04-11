@@ -9,6 +9,11 @@ const routes = [
     path: '/',
     name: 'Messaging',
     component: Messaging,
+    children: [{
+      path: '/:id',
+      name: 'MessageList',
+      component: () => import('../components/Messaging/MessageList/MessageList.vue'),
+    }],
   },
 ];
 
