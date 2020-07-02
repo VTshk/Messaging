@@ -1,6 +1,6 @@
 # messages-list
 
-view: https://affectionate-dijkstra-1c283a.netlify.app/
+Demo: https://affectionate-dijkstra-1c283a.netlify.app/
 
 ## Project setup
 ```
